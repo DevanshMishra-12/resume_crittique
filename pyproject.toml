@@ -1,12 +1,16 @@
 [project]
 name = "project1"
 version = "0.1.0"
-description = "Add your description here"
+description = "AI Resume Critiquer using Streamlit + OpenAI"
 readme = "README.md"
 requires-python = ">=3.12"
+
 dependencies = [
+    "streamlit>=1.40.0",
+    "PyPDF2>=3.0.0",
+    "openai>=1.57.0",
+    "python-dotenv>=1.1.0",
     "langchain>=0.3.25",
     "langchain-openai>=0.3.16",
     "langgraph>=0.4.1",
-    "python-dotenv>=1.1.0",
 ]
